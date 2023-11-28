@@ -1,10 +1,16 @@
+
+
+
+
 {
     "manifest_version": 3,
-    "version": "1.0",
-    "name": "Leads tracker",
+    "version" : "1.0",
+    "name": "Tracker Chrome Extension",
     "action": {
-        "default_popup": "index.html"
-    },
+        "default_popup": "index.html",
+        "default_icon": "save.png"
+    }, 
+
     "permissions": [
         "tabs"
     ]
